@@ -1,0 +1,13 @@
+{
+    "name": "tri-petch",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "pzfender-pp <p.kongjaiman@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "dev": "lite-server"
+    },
+    "devDependencies": {
+        "lite-server": "^2.6.1"
+    }
+}

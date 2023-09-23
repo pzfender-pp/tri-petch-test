@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.bg-light-purple {
+    background-color: #f5f4f9;
+}
+
+.wrapper {
+    padding: 0.5rem 1.125rem;
+}
+
+.heading-2 {
+    font-size: 3.125rem;
+    font-weight: 400;
+    color: #e7e7e7;
+    line-height: 2.8rem;
+    margin-bottom: 1rem;
+}
+
+/* Section 1 */
+.athlets-mb-img {
+    width: 80%;
+    display: block;
+    margin: 0 auto -75px;
+}
+
+.athlets-swiper .swiper-wrapper {
+    padding: 5rem 0;
+}
+
+.athlets-swiper .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background-color: #d8d8d8;
+    opacity: 1;
+}
+
+.athlets-swiper .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: #5c3caf;
+}
+
+.topic {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.25rem;
+    gap: .75rem;
+}
+
+.topic .number {
+    font-size: 0.875rem;
+    color: black;
+    position: relative;
+    margin-bottom: 0.1rem;
+}
+
+.topic .number::before {
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: #603ebe;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    border-radius: 10px;
+}
+
+.topic .title {
+    font-size: 1.75rem;
+    font-weight: 400;
+    color: #c2c2c2;
+}
+
+.topic + .desc {
+    font-size: 15px;
+    color: black;
+    line-height: 1.3rem;
+}
