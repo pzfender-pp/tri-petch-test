@@ -1,6 +1,13 @@
-const swiper = new Swiper("#athlets-swiper", {
-    loop: true,
-    pagination: {
-        el: ".swiper-pagination",
-    },
+window.addEventListener("load", () => {
+    const swiper = new Swiper(".swiper", {
+        loop: true,
+        pagination: {
+            el: ".swiper-pagination",
+        },
+    });
+
+    AOS.init({
+        once: true,
+        duration: 500,
+    });
 });
