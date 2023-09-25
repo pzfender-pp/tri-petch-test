@@ -4,5 +4,5 @@ create a website for Tri-pecth with HTML, CSS, JS
 
 ## Getting Started
 
-yarn
-yarn dev
+1. yarn
+2. yarn dev
